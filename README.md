@@ -113,7 +113,7 @@ These script is little heavy but is very simple too install, and it's work on an
 <td>string</td>
 <td>'none'</td>
 <td></td>
-<td>Add your youtube API key , get one on the [google dev console](https://console.developers.google.com)</td>
+<td>Add your youtube API key , get one on the <a href="https://console.developers.google.com">google dev console</a></td>
 
 </tr>
 
