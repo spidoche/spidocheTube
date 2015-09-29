@@ -19,7 +19,7 @@ Add a div with an id of your choice inside the `<body></body>` (we'll use id="yo
 ### JAVASCRIPT
 
 1.  If not already inculde, add jQuery inside the head tag
-2.  Then add spidochetube.js
+2.  Then add spidochetube.js 
 3.  Finally initialize the plugin with at least the 2 required parameter : the youtube api **KEY** and the playlist **ID**
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
