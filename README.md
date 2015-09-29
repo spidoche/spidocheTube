@@ -127,39 +127,32 @@ uZZ5FSM9Ttw'</td>
 <td>
 Your playlist id, it's can be a user playist id or a user last entries playlist
 if no argument submit spidochetube will display the last google devlopper channel entries
-[How to find a playlist id?](https://www.youtube.com/watch?v=oRGEOtcZc0o)
+<a href="https://www.youtube.com/watch?v=oRGEOtcZc0o">How to find a playlist id?</a>
 </td>
-
 </tr>
 
 <tr>
-
 <td>max_results</td>
 <td>integer</td>
 <td>10</td>
 <td>1 to 50</td>
 <td>50 results per page/load maximum (youtube api limitation)</td>
-
 </tr>
 
 <tr>
-
 <td>autoplay</td>
 <td>boolean</td>
 <td>false</td>
 <td>true</td>
 <td>Set to true if you want to autoplay the videos</td>
-
 </tr>
 
 <tr>
-
 <td>complete</td>
 <td>function</td>
 <td></td>
 <td></td>
 <td>Callback function fire after list is loaded</td>
-
 </tr>
 
 </tbody>
