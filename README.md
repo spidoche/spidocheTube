@@ -1,4 +1,7 @@
 # SpidocheTube 3
+A simple jQuery youtube gallery plugin
+
+Project website : http://tube.spidoche.com
 
 ## DEMO
 
