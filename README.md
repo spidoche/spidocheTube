@@ -36,7 +36,7 @@ This step is NOT required, you can easily add your own CSS to match your website
 
 To use the spidocheTube premade skins, follow the instructions below
 
-#### Minimal
+#### Minimal theme install
 
 ##### Add the CSS
 
@@ -55,7 +55,7 @@ Beginner tips: do not forget to change the path of the css file to match your pr
     })
     </script>
 
-#### Darkscroll
+#### Darkscroll theme install
 
 ##### Add the CSS
 
