@@ -97,13 +97,9 @@ These script is little heavy but is very simple too install, and it's work on an
 <tr>
 
 <th class="option">Name</th>
-
 <th class="type">Type</th>
-
 <th class="parameter">Default value</th>
-
 <th class="example">Options available</th>
-
 <th class="description">Description</th>
 
 </tr>
@@ -111,13 +107,9 @@ These script is little heavy but is very simple too install, and it's work on an
 <tr>
 
 <td>key</td>
-
 <td>string</td>
-
 <td>'none'</td>
-
 <td></td>
-
 <td>Add your youtube API key , get one on the [google dev console](https://console.developers.google.com)</td>
 
 </tr>
@@ -125,21 +117,14 @@ These script is little heavy but is very simple too install, and it's work on an
 <tr class="playlist_id">
 
 <td>id</td>
-
 <td>string</td>
-
-<td>'UU_x5XG1OV2P6uZZ5FSM9Ttw'</td>
-
+<td>'UU_x5XG1OV2P6
+uZZ5FSM9Ttw'</td>
 <td></td>
-
 <td>
-
 Your playlist id, it's can be a user playist id or a user last entries playlist
-
 if no argument submit spidochetube will display the last google devlopper channel entries
-
 [How to find a playlist id?](https://www.youtube.com/watch?v=oRGEOtcZc0o)
-
 </td>
 
 </tr>
@@ -147,13 +132,9 @@ if no argument submit spidochetube will display the last google devlopper channe
 <tr>
 
 <td>max_results</td>
-
 <td>integer</td>
-
 <td>10</td>
-
 <td>1 to 50</td>
-
 <td>50 results per page/load maximum (youtube api limitation)</td>
 
 </tr>
@@ -161,13 +142,9 @@ if no argument submit spidochetube will display the last google devlopper channe
 <tr>
 
 <td>autoplay</td>
-
 <td>boolean</td>
-
 <td>false</td>
-
 <td>true</td>
-
 <td>Set to true if you want to autoplay the videos</td>
 
 </tr>
@@ -175,13 +152,9 @@ if no argument submit spidochetube will display the last google devlopper channe
 <tr>
 
 <td>complete</td>
-
 <td>function</td>
-
 <td></td>
-
 <td></td>
-
 <td>Callback function fire after list is loaded</td>
 
 </tr>
@@ -189,4 +162,3 @@ if no argument submit spidochetube will display the last google devlopper channe
 </tbody>
 
 </table>
-<div class="download_more">
