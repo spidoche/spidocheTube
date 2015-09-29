@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+
+    <title>SpidocheTube Dark theme</title>
+
+    <!-- style not required -->
+    <style type="text/css">
+        html{height:100%; background: #eee;}
+        h1{text-shadow: 0 2px 10px rgba(0,0,0,0.3); font-family: Georgia, "Times New Roman", Times, serif; color:#4A4C50; margin: 40px auto 6px auto; max-width: 960px; font-size: 34px; }
+        footer{ text-align:center; clear:both}
+        footer small{font-size:11px; font-family:Arial, Helvetica, sans-serif;padding:20px 0; display: inline-block; color: #838282;}
+        footer a{ color:#17728F; text-decoration:none}
+        footer a:hover{ color:#5A9DB3}
+    </style>
+
+    <!-- Darkscroll theme css -->
+    <link rel="stylesheet" href="css/darkscroll.css" />
+
+    <!-- Darkscroll Theme js -->
+    <script src="js/jquery.1.9.0.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="../../jquery.spidochetube.js"></script>
+    <script>
+        jQuery(function($){
+            $('#youtube').spidochetube({
+                key         : 'AIzaSyDxAaCPs_95DulrXfQCPkzGrh11oytJEv0',
+                id          : 'UU_x5XG1OV2P6uZZ5FSM9Ttw',
+                max_results : 8,
+                complete    : function(){
+                    // Initialize the scroll plugin after the playlist is ready
+                    $('#spidochetube_list').niceScroll({
+                        cursorcolor  : '#666',
+                        cursorborder : '0px solid #fff',
+                        autohidemode : false
+                    });
+                }
+            });
+        })
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <h1>SpidocheTube Dark theme</h1>
+    </header>
+
+    <div id="youtube" class="spidochetube"></div>
+
+    <footer>
+        <small>
+            SpidocheTube Made by <a href="http://spidoche.com" title="visit spidoche online porfolio">Spidoche</a>
+        </small>
+    </footer>
+
+</body>
+</html>
