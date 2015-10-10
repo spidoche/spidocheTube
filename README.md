@@ -23,16 +23,16 @@ Add a div with an id of your choice inside the `<body></body>` (we'll use id="yo
 3.  Finally initialize the plugin with at least the 2 required parameter : the youtube api **KEY** and the playlist **ID**
 
 ```
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script src="js/jquery.spidochetube.js"></script>
-    <script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="js/jquery.spidochetube.js"></script>
+<script>
     jQuery(function($){
         $('#youtube').spidochetube({
             key         : '[MY YOUTUBE API KEY]',
             id          : 'UU_x5XG1OV2P6uZZ5FSM9Ttw',
         });
     })
-    </script>
+</script>
 ```
 
 ### THEMES
