@@ -29,7 +29,7 @@ Add a div with an id of your choice inside the `<body></body>` (we'll use id="yo
     jQuery(function($){
         $('#youtube').spidochetube({
             key         : '[MY YOUTUBE API KEY]',
-            id          : 'UU_x5XG1OV2P6uZZ5FSM9Ttw',
+            id          : 'UU_x5XG1OV2P6uZZ5FSM9Ttw', // add the youtube playlist id of your choice
         });
     })
 </script>
@@ -54,8 +54,8 @@ Beginner tips: do not forget to change the path of the css file to match your pr
     <script>
     jQuery(function($){
         $('#youtube').spidochetube({
-            key         : '[MY YOUTUBE API KEY]',
-            id          : 'UU_x5XG1OV2P6uZZ5FSM9Ttw',
+            key             : '[MY YOUTUBE API KEY]',
+            id              : 'UU_x5XG1OV2P6uZZ5FSM9Ttw',
             max_results     : 20,
             paging          : 'loadmore',
             scroll_duration : 500
