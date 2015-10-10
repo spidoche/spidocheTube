@@ -54,6 +54,9 @@ Beginner tips: do not forget to change the path of the css file to match your pr
         $('#youtube').spidochetube({
             key         : '[MY YOUTUBE API KEY]',
             id          : 'UU_x5XG1OV2P6uZZ5FSM9Ttw',
+            max_results     : 20,
+            paging          : 'loadmore',
+            scroll_duration : 500
         });
     })
     </script>
@@ -112,7 +115,7 @@ These script is little heavy but is very simple too install, and it's work on an
 <td>key</td>
 <td>string</td>
 <td>'none'</td>
-<td></td>
+<td>&nbsp;</td>
 <td>Add your youtube API key , get one on the <a href="https://console.developers.google.com">google dev console</a></td>
 
 </tr>
@@ -123,7 +126,7 @@ These script is little heavy but is very simple too install, and it's work on an
 <td>string</td>
 <td>'UU_x5XG1OV2P6
 uZZ5FSM9Ttw'</td>
-<td></td>
+<td>&nbsp;</td>
 <td>
 Your playlist id, it's can be a user playist id or a user last entries playlist
 if no argument submit spidochetube will display the last google devlopper channel entries
@@ -148,10 +151,18 @@ if no argument submit spidochetube will display the last google devlopper channe
 </tr>
 
 <tr>
+<td>scroll_duration</td>
+<td>Interger</td>
+<td>0</td>
+<td>&nbsp;</td>
+<td>The speed of the scroll animation after clicking on a video item, useful if you have a long list on videos and the player on the top</td>
+</tr>
+
+<tr>
 <td>complete</td>
 <td>function</td>
-<td></td>
-<td></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
 <td>Callback function fire after list is loaded</td>
 </tr>
 
