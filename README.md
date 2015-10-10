@@ -22,7 +22,7 @@ Add a div with an id of your choice inside the `<body></body>` (we'll use id="yo
 2.  Then add spidochetube.js 
 3.  Finally initialize the plugin with at least the 2 required parameter : the youtube api **KEY** and the playlist **ID**
 
-
+```
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script src="js/jquery.spidochetube.js"></script>
     <script>
@@ -33,6 +33,7 @@ Add a div with an id of your choice inside the `<body></body>` (we'll use id="yo
         });
     })
     </script>
+```
 
 ### THEMES
 
