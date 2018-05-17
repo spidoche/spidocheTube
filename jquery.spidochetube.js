@@ -117,7 +117,7 @@
                     }
                 }); //END $.each(data.items)
 
-            }).complete(function(){
+            }).then(function(){
 
                 // When the JSON request is complete
                 // Initialize the first video
