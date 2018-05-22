@@ -159,7 +159,7 @@
         // Build and return the youtube iframe src
         function iframe_src(iframe_video_id, autoplay, theme){
 
-            var src = 'http://www.youtube.com/embed/'+iframe_video_id+'?version=3&loop=1&autoplay='+autoplay+'&rel=0&showsearch=0&showinfo=0&theme='+theme;
+            var src = 'https://www.youtube.com/embed/'+iframe_video_id+'?version=3&loop=1&autoplay='+autoplay+'&rel=0&showsearch=0&showinfo=0&theme='+theme;
             return src;
 
         }
