@@ -171,3 +171,12 @@ if no argument submit spidochetube will display the last google devlopper channe
 </tbody>
 
 </table>
+
+## CHANGE LOG
+
+### v 3.1 (thank to @SebastienGicquel)
+- Update to jQuery 3
+- Fix https issue
+
+### v 3.0
+- spidochetube 3 initial release
