@@ -146,10 +146,10 @@ if no argument submit spidochetube will display the last google devlopper channe
 
 <tr>
 <td>autoplay</td>
-<td>boolean</td>
+<td>integer</td>
 <td>0</td>
 <td>1</td>
-<td>Set to true if you want to autoplay the videos</td>
+<td>Set to 1 if you want to autoplay the videos</td>
 </tr>
 
 <tr>
